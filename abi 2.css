@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.Contact{
+    height: 100vh;
+    width: 100%;
+    background-image:url(restaurant.jpg );
+    background-size: cover;
+    background-position: centre;
+    background-color: brown;
+     /* color: white; 
+    font-size: bold;
+    padding-top: 100px;
+    padding-right: 100px;  */
+
+}
+Nav{
+    display: flex;
+    align-items: centre;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-bottom: 30%;
+    float: right;
+}
+nav ul {
+    display: flex;
+    
+    
+}
+nav ul li{
+    padding: 10px 20px;
+
+}
+
+nav ul li a{
+    color: bisque;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    
+}
+
+.name{
+     color: white;
+    font-size: 80px;
+    padding-top: 100px;
+    padding-right: 100px;
+     
+
+}
+
+.about_me{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+.about_me img{
+    height: auto;
+    width: 1000px;
+    }
+.about_content{
+    color: black;
+    margin-left: 20px;
+    font-size: 30px;
+    
+}
+
+.main{
+    display: flex;
+}
+.btn_menu{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.btn_menu:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    }
+div {
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.run {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./briyani3\ -\ Copy.jfif);
+    background-size: cover;
+    background-position: center;
+    color:blanchedalmond;
+    /* background-size: cover; */
+}
+.run h1{
+    color: blanchedalmond;
+    margin-left: 100px;
+}
+.run h2{
+    color: blanchedalmond;
+    margin-top: 10px;
+}
+.btn_contact{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.btn_contact:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.abi h1{
+    color: brown;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: bold;
+}
+.abi h2{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px ;
+    font-size: bold;
+}
+.abi h3{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: bold;
+}
